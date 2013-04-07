@@ -1,0 +1,12 @@
+# intermediate files created by TeX
+*.log
+*.dvi
+*.aux
+*.toc
+*.loa
+*.lof
+*.lot
+*.out
+
+# Final document is also not in REPO
+thesis.pdf

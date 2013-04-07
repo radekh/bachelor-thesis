@@ -1,0 +1,12 @@
+\begin{seznamzkratek}{DSP}
+
+	\novazkratka{zkDSP}		% název
+		{DSP}								% zkratka
+		{èíslicové zpracování signálù -- Digital Signal Processing}
+											% rozvinutí zkratky
+
+	\novazkratka{symfvz}						% název
+		{\ensuremath{f_\textind{vz}}} % symbol
+		{vzorkovací kmitoèet}					% popis
+		
+\end{seznamzkratek}
