@@ -7,6 +7,6 @@
 *.lof
 *.lot
 *.out
-
+\#*\#
 # Final document is also not in REPO
 thesis.pdf
