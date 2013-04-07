@@ -1,9 +1,0 @@
-\chapter*{Úvod}
-\phantomsection
-\addcontentsline{toc}{chapter}{Úvod}
-
-
-Úvod studentské práce, napø\,\dots
-
-Tato práce se vìnuje oblasti \zk{zkDSP} (\zkratkatext{zkDSP}), zejména jevùm, které nastanou pøi nedodržení Nyquistovy podmínky pro \zkratka{symfvz}.%
-\footnote{Tato vìta je pouze ukázkou použití pøíkazù pro sazbu zkratek.}
