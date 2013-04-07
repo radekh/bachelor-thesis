@@ -15,3 +15,8 @@ Because my preference on operating system I used Linux Debian, version Wheezy.  
 Recoding to UTF8
 
     $ recode cp1250/CRLF..utf8 vysledky.tex
+
+Building the thesis
+-------------------
+
+    $ make thesis.pdf
