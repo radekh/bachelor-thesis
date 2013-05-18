@@ -17,7 +17,7 @@ all: $(NAME).pdf
 
 
 # LaTeX je potreba spustit dvakrat, aby spravne spocital odkazy
-$(NAME).pdf: $(NAME).tex
+$(NAME).pdf: $(NAME).tex text/*.tex
 	$(TEX) $<
 	$(TEX) $<
 

@@ -149,25 +149,26 @@ semestral						%	sazba zprávy semestrálního projektu
 
 
 %% Vložení desek generovaných informačním systémem
-\includepdf[pages=1,offset=19mm 0mm]%
-  {pdf/student-desky}% název souboru nesmí obsahovat mezery!
+%\includepdf[pages=1,offset=19mm 0mm]%
+%  {pdf/student-desky}% název souboru nesmí obsahovat mezery!
 % nebo vytvoření desek z balíčku
-%\vytvorobalku
+% \vytvorobalku
+\include{text/obalka}
 \setcounter{page}{1} %resetovani citace stranek - desky se necisluji
 
 %% Vložení titulního listu generovaného informačním systémem
-\includepdf[pages=1,offset=19mm 0mm]%
-  {pdf/student-titulka}% název souboru nesmí obsahovat mezery!
+%\includepdf[pages=1,offset=19mm 0mm]%
+%  {pdf/student-titulka}% název souboru nesmí obsahovat mezery!
 % nebo vytvoření titulní stránky z balíčku
-%\vytvortitulku
+\vytvortitulku
    
 %% Vložení zadání generovaného informačním systémem
-\includepdf[pages=1,offset=19mm 0mm]%
-  {pdf/student-zadani}% název souboru nesmí obsahovat mezery!
+%\includepdf[pages=1,offset=19mm 0mm]%
+%  {pdf/student-zadani}% název souboru nesmí obsahovat mezery!
 % nebo lze vytvořit prázdný list příkazem ze šablony
-%\stranka{}%
-%	{\sffamily\Huge\centering ZDE VLOŽIT LIST ZADÁNÍ}%
-%	{\sffamily\centering Z~důvodu správného číslování stránek}
+\stranka{}%
+	{\sffamily\Huge\centering ZDE VLOŽIT LIST ZADÁNÍ}%
+	{\sffamily\centering Z~důvodu správného číslování stránek}
 
 %% Vysázení stránky s abstraktem
 \vytvorabstrakt
@@ -198,8 +199,16 @@ semestral						%	sazba zprávy semestrálního projektu
 %% Vložení souboru 'text/reseni' s popisem reseni práce
 \include{text/reseni}
 
+%% Jednotlivé kapitoly
+\include{text/1-vychodiska}
+\include{text/2-zaklad}
+\include{text/3-popis-site}
+\include{text/4-navrh-komunikace}
+\include{text/5-realizace}
+\include{text/6-testovani}
+
 %% Vložení souboru 'text/vysledky' s popisem vysledků práce
-\include{text/vysledky}
+%\include{text/vysledky}
 
 %% Vložení souboru 'text/zaver' se závěrem
 \include{text/zaver}
