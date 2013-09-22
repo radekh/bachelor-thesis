@@ -1,0 +1,9 @@
+# Old PDFs.  These do not need to be in git.  They are these only for my comfort if I need to show someone older version.
+/old
+
+# Some temoprary files I do use in time of working.
+git.status
+
+# Editor temporary files and backup files.
+\#*\#
+*~

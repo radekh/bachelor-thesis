@@ -1,3 +1,6 @@
+# Editor temporary files and backup files.
+\#*\#
+*~
 # intermediate files created by TeX
 *.log
 *.dvi
@@ -7,6 +10,5 @@
 *.lof
 *.lot
 *.out
-\#*\#
 # Final document is also not in REPO
 thesis.pdf
