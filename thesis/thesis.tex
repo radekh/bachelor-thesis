@@ -74,8 +74,8 @@ czech              % originální jazyk je čeština (výchozí)
 %	phd
 % treatise
 % diploma							% sazba diplomové práce
-% bachelor						%	sazba bakalářské práce
-semestral						%	sazba zprávy semestrálního projektu
+bachelor						%	sazba bakalářské práce
+% semestral						%	sazba zprávy semestrálního projektu
 ]{thesis}             % Balíček pro sazbu studentských prací
                       % Musí být vložen až jako poslední, aby
                       % ostatní balíčky nepřepisovaly jeho příkazy
@@ -198,6 +198,12 @@ semestral						%	sazba zprávy semestrálního projektu
 
 %% Vložení souboru 'text/reseni' s popisem reseni práce
 \include{text/reseni}
+
+%% Definice maker
+\newcommand{\IIC}{I\textsuperscript{2}C}
+\newcommand{\doplnit}[1]{\emph{doplnit: #1}}
+\newcommand{\TBDi}[1]{\textbf{TBD:} \emph{#1}}
+\newcommand{\TBD}[1]{\textbf{TBD:} \emph{#1}}
 
 %% Jednotlivé kapitoly
 \include{text/1-zaklad}

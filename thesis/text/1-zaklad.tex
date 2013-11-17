@@ -1,5 +1,44 @@
 \chapter{Teoretický základ}
 
-\section{První sekce}
+\section{Popis mikrořadiče AVR ATmega328}
 
-Část.
+Mikrořadič ATmega328 od firmy AVR je jeden z řady procesorů používaných v Arduinu.  Mikrořadič má 32kB paměti programu EPROM, 2kB paměti RAM.
+...
+Mikrořadič je dále vybaven řadou periferních obvodů integrovaných přímo na čipu.  Jedná se zejména o čítače/časovače ...doplnit..., obvody sériové komunikace UART USART, SPI, \IIC, ...doplnit...
+
+%TODO: pro I2C zavést makro \I2C => \textsuperscript{2}C
+
+\IIC
+
+\begin{itemize}
+\item UART, USART
+\item SPI
+\item \IIC
+\item DAC -- digitálně analoový převodník
+\end{itemize}
+
+\subsection{Rozhraní SPI}
+
+Rozhraní SPI je \doplnit{SPI} používá se sériové komunikaci s obvody stejného rozhraní.  V našem případě je to komunikace s obvody ETH rozhraní \doplnit{název ETH obvodů}.
+
+\subsection{Rozhraní I2C}
+
+\subsection{DAC - digitálně analogový převodník}
+
+Tento obvod převádí analogové
+
+\section{Popis obvoud ETH rozhraní Wizz}
+
+Pro internetovou komunikaci je možno použít několik obvodů.  Pro Arduino jsou dostupná dvě řešení.  Jedno řešení je s čipem ...doplnit... od firmy Microchip a druhé s čipem Wiz...doplnit.. od firmy ...doplnit...
+
+\section{Internetová komunikace}
+
+\subsection{TCP}
+\TBD{Popsat základ protokolu TCP.}
+
+\subsection{HTTP}
+
+\TBD{Popsat základ HTTP komunikace.}
+
+
+%%EOF
